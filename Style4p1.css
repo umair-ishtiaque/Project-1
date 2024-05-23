@@ -1,0 +1,445 @@
+/*CSS for Header Section*/
+                                        /* Navigation Bar Button  */
+                                        .container {
+                                          display: none;
+                                          cursor: pointer;
+                                          
+                                        }
+
+                                        .bar1, .bar2, .bar3 {
+                                          width: 35px;
+                                          height: 5px;
+                                          background-color: white;
+                                          margin: 6px 0;
+                                          border-radius: 5px; 
+                                        }
+
+.h{
+  background-image: url(hero.png);
+  height: 42rem;
+  background-position: center;
+  display: block;
+  background-repeat: no-repeat;
+   }
+                                        /* Navigation Bar for Media Query */
+                                          .topnav1{
+                                          display: none;
+                                          text-align: center;
+                                          justify-content: center;
+                                        }
+                                        .topnav1 a {
+                                          font-family: Arial, Helvetica, sans-serif;
+                                          color: white;
+                                          font-size: 36px;
+                                          text-decoration: none;
+                                        }
+                                        .navnbutn{
+                                          display: none;
+                                                                                   
+                                        }
+/* SCC for Navigation Bar */
+.topnav {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+  }  
+  .topnav a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(164, 164, 164);
+    margin: 3% 2%;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  .topnav a:nth-child(4) {
+    font-size: 150%;
+    color: white;
+  } 
+.topnav a:nth-child(1) {
+  color: white;
+} 
+ /*I'm Craig Smith Container*/
+.craig_sec { 
+  display: block;
+  color: aliceblue;
+  width: 5in;
+  height: 24rem;
+  margin-left: 7rem;
+  margin-top: 10vh;
+  line-height: 1.9;
+}
+.line1{
+  font-size: 3rem; font-family: Arial, Helvetica, sans-serif; color: aliceblue;
+}
+.line2{
+  color: rgb(164, 164, 164); font-size: 20px;
+}
+.line3{
+  font-size: 1.25rem; font-family: Arial, Helvetica, sans-serif
+}
+button {
+  background-color:rgb(216, 168, 79);
+  color: white;
+  padding: 1rem 2.5rem;
+  text-align: center;
+  text-decoration: wavy;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin: 15px 4px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 16px;}
+/* Header Section End*/
+  
+
+/*CSS for Section - 2 Start*/
+
+.service{
+  height: 7in;
+  justify-content: center;
+  padding-top: 100px;
+  position: flex;
+  text-align: center;
+  background-color: rgb(255, 250, 244);
+  }
+ .grid-container {
+   display: grid;
+   justify-content: center;
+   grid-template-columns: 34rem 34rem; /*Make the grid smaller than the container*/
+   gap: 2rem;
+   max-width: auto;
+   margin-top: 6rem;
+  }
+  .grid-container > div {
+   display: flex;
+   width: 100%;
+   background-color:white;
+   text-align: left;
+   padding: .5rem 0px;
+   color: gray;
+   font-size: 1.25rem;
+   font-family: Arial, Helvetica, sans-serif;
+   box-shadow: 2px 2px 2px 2px rgb(231, 187, 187);
+   }
+.grid_logos{
+  margin-left: 1.25rem; margin-top: 1rem;
+}
+#grid_img{
+  width: 3rem;
+  height: 3rem;
+}
+.grid_sec{
+  line-height: 2; 
+  margin-left: 5%;
+  margin-top: .625rem;
+}
+.grid_text{
+  font-size: 1rem; 
+  line-height: 2
+}
+/* Section - 3 - About Me Start*/
+.sec_3_main {
+  display: block; 
+  height: 52rem; 
+  width: 100%;
+}
+.sec_3_heading{
+  margin-top: 8rem; 
+  margin-left: 7rem;
+}
+.about_me{
+  margin-left: 7rem; 
+  margin-top: 2rem; 
+  display: flex; 
+  width: auto;
+}
+.about_me_info{
+  display: block; 
+  width: 45%; 
+  height: 100%;
+}
+#about_me_img{
+  height: 100%; 
+  width: 100%
+}
+.about_me_text{
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+}
+/* Statistic Container */
+.stat_container{
+  display:block ; 
+  margin-left: 3rem; 
+  width: 45%; 
+  height: 100%;
+}
+#svg{
+  height: 0.5rem;
+  width: 100%;
+}
+/*CSS for rectangle shape with small arrow on top*/
+#box_percentage{
+  font-size: smaller; 
+  margin-top: 1.25rem; 
+  background-color: orange;
+}
+.arrow-up { 
+  width: 0px;
+  height: 1rem;
+  margin:0;
+  border-left: .313rem solid transparent;
+  border-right: .313rem solid transparent;
+  border-bottom: .313rem solid orange;
+  left: 33%; 
+  position: absolute; 
+  background-size: 100%; 
+  z-index: 999;
+  }
+.arrow-inner {
+  width:0;
+  height:0;
+  margin:1px 0 0 0px;
+  border-left: .625rem solid transparent;
+  border-right: .625rem solid transparent;
+  border-bottom: .625rem solid orange;   
+}
+
+/*CSS for PERCENTAGE BOXES*/
+  
+  #box1 { 
+  height: 0px;
+  width: auto;
+  position: relative;
+  display: inline ;
+  float: left;
+  text-align: center;
+  left: 87%;
+    }
+  #box2 {
+    height: 0px;
+    width: auto;
+    position: relative;
+    display: inline ;
+    float: left;
+    text-align: center;
+    left: 73%;
+    }
+    #box3 {
+      height: 0px;
+      width: auto;
+      position: relative;
+      display: inline ;
+      float: left;
+      text-align: center;
+      left: 92%;
+      }
+      #box4 {
+        height: 0px;
+        width: auto;
+        position: relative;
+        display: inline ;
+        float: left;
+        text-align: center;
+        left: 92%;
+        } 
+/* STATISTICS LINE COLORS*/
+        .grey_line{
+          stroke: lightgrey; 
+          stroke-width:12;
+        }
+        .orange_line{
+          stroke: orange ; 
+          stroke-width: 12;
+        } /*Section - 3 - Closed*/
+/* <!-- Section - 4 - What Client Are Saying Start --> */
+        .sec4_main{
+          display: block; 
+          height: 36rem; 
+          width: auto; 
+          padding: 5rem 20rem; 
+          background-color: rgb(194, 152, 74);  
+          text-align: center; 
+          border: none; 
+          color: aliceblue;
+        }
+        .sec4_client{
+          font-size: 2.25rem; 
+          line-height: 5;
+        }
+        .sec4_qoma{
+          font-size: 3rem;
+        }
+        .sec4_para{
+          font-size: 1.5rem; 
+          line-height: 1.5;
+        }
+        .sec4_last_line{
+          font-size: 1.5rem;
+          color: rgb(255, 255, 255);
+        }
+/* <!-- Section - 4 - What Client Are Saying End Here --> */
+/* Section - 5 BLOG POST Starts here */
+.sec_5{    /*CSS for Section 5 of the Picture*/
+  height: 51rem; 
+  width: auto; 
+  display: block; 
+  background-color: whitesmoke; 
+  padding: 7rem;
+}
+.blog_post{
+  font-size: 2.25rem; 
+  text-align: center; 
+  padding-bottom: 6rem;
+}
+.sec5_col_container{
+  display: flex; 
+  justify-content: center; 
+  height: 48rem; 
+  width: auto;
+}
+.sec5_col1{
+  display: block; 
+  background-color: white; 
+  height: 42rem ; 
+  width: 33.33%; 
+  margin-right: 1rem;
+ }
+ #sec5_col2{
+  display: block; 
+  background-color: white; 
+  height: 42rem ; 
+  width: 33.33%; 
+  margin-right: 2rem;
+  margin-left: 1rem;
+ }
+img{
+   border-top-left-radius: 5px; 
+   border-top-right-radius: 5px;
+  
+   }
+   .sec5_col{
+    padding: 1.5rem; 
+    display: block;
+   }
+  .sec5_col_heading{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.4rem;
+  }
+ .sec5_col_date{
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: .9rem; 
+  line-height: 3; 
+  color: rgb(178, 177, 177);
+ }
+   .sec5_col_text{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1rem; 
+    line-height: 1.5; 
+    color:rgb(144, 143, 143);
+   }
+#read{
+  color: orange; 
+  font-size: 1rem;
+}
+              
+/*CSS for Section 6 Form Section*/
+        .sec6_main{ 
+          height: 48rem;
+          width: auto;
+          display: block;
+          background-color:rgb(243, 187, 82);
+          padding: 7rem;
+        }
+       
+        .sec6_text{
+          font-size: 2.25rem; 
+          color: white; 
+          text-align: center; 
+          padding-bottom: 6rem;
+          }
+        .sec6_form{
+          display: block; 
+          width: 100%; 
+          height: auto;
+          }
+          .sayhello{
+            color: rgb(240, 237, 237); 
+            margin-left: 1rem; 
+            font-size: 1rem;
+          }
+          .button1{
+            background-color: black; 
+            border-radius: 2.2rem; 
+            font-size: 1rem;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+/* Footer Section Starts here */
+          .f_main{
+            height: 18rem; 
+            width: auto; 
+            padding: 6rem;
+          }
+          .f_grid {/*CSS for Footer GRID*/
+            display: grid;
+            grid-template-columns: 30% auto auto auto 25%;
+            background-color:none;
+            height: auto;
+            width: auto;
+            }
+          .f_grid> div {
+            display: block;
+            padding: 1.25rem;
+            background-color: none;
+            text-align: left;
+            height: auto;
+            width: auto;
+            font-size: 1rem;
+            color: gray;
+          }
+          .dot {
+            height: 1.25rem;
+            width: 1.25rem;
+            background-color:whitesmoke;
+            border-radius: 50%;
+            display: inline-block; 
+          }
+          .f_para{
+            line-height: 1.5;
+          }
+          .f_para2{
+            text-align: center; 
+            color: gray;
+          }
+          #f_logo{
+            font-size:1.5rem; 
+            word-spacing: 1rem;
+          }
+            /* gap: */
+  @media screen and (max-width:600px) {
+    .h{
+      background-image: url(hero.png);
+      max-width: 100%;
+      height: 42rem;
+      
+       ;
+     }
+   .topnav{display: none;}
+   .topnav1 {
+      display: inline-flex;
+      border: 2px solid red;
+    } 
+  .container {
+      display: inline-block;
+      border: 2px solid red;
+      cursor: pointer;
+    }
+  .navnbutn{
+    display: block;
+    width: 50%;
+    border: 2px solid blue;
+  } 
+    }
+    
+  
+ 

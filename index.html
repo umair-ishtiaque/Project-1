@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project4</title>
+    <link rel="stylesheet" href="Style4p1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{ 
+            margin: 0;
+            padding: 0;
+            font-family:  Arial, "Noto Sans", sans-serif, 
+         }
+         
+     </style>
+    
+</head>
+<body>
+<!-- HEADER SECTION -->
+    <header class="h">
+        <div class="topnav">
+            <a href="https://www.google.com/" target="_blank">Home</a>
+            <a href="https://www.google.com/" target="_blank">About</a>
+            <a href="https://www.google.com/" target="_blank">Services</a>
+            <a href="https://www.google.com/" target="_blank">Credo</a>
+            <a href="https://www.google.com/" target="_blank">Photography</a>
+            <a href="https://www.google.com/" target="_blank">Blog</a>
+            <a href="https://www.google.com/" target="_blank">Contact </a>
+        </div>
+                                            <!-- Navigation Bar & Button for Media Query -->
+                                            <div class="navnbutn">
+                                                <div class="topnav1">
+                                                <a href="https://www.google.com/" target="_blank">Credo</a>
+                                                </div>
+                                                <div class="container">
+                                                    <div class="bar1"></div>
+                                                    <div class="bar2"></div>
+                                                    <div class="bar3"></div>
+                                                </div>
+                                            </div>
+        <!--I'm Craig Smith Section  -->
+        <div class="craig_sec">
+            <p class="line1">I'm Craig Smith</p>
+            <pre class="line2">Photographer   |   Speaker</pre><br>
+            <p class="line3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis asperiores ut, id sequi cupiditate optio recusandae, delectus vel laboriosam natus veniam.</p>
+            <button>Contact Me</button>
+        </div>
+    </header>             
+    
+<!-- Section - 2 Start here-->
+    <div class="service"> 
+    <h2>Services</h2>
+    <!-- Grid Container -->
+        <div class="grid-container">
+        <!-- Wedding Grid -->             
+            <div>
+            <!-- Wedding Logo Container -->
+                <div class="grid_logos"> 
+                <img id="grid_img" src="Wedding logo.png"> 
+                </div>
+            <!-- Wedding Text Container    -->
+                <div class= "grid_sec">Wedding 
+                <p class="grid_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, molestiae eligendi pariatur, magni, sed voluptas eaque inventore sint magnam quidem rerum neque? Corporis provident ipsam sit doloribus quas voluptas molestias?</p>
+                </div>
+            </div>
+        <!-- Events Grid -->                    
+            <div>
+            <!-- Event Logo Container     -->
+                <div class="grid_logos"> 
+                <img id="grid_img" src="Event log.jpg"> 
+                </div>
+            <!-- Event Text Container     -->
+                <div class= "grid_sec">Events 
+                <p class="grid_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, molestiae eligendi pariatur, magni, sed voluptas eaque inventore sint magnam quidem rerum neque? Corporis provident ipsam sit doloribus quas voluptas molestias?</p>
+                </div>
+            </div>    
+        <!-- Conference Grid -->                     
+            <div>
+            <!-- Conference Logo Container     -->
+                <div class="grid_logos"> 
+                <img id="grid_img" src="conference logo.png"> 
+                </div>        
+            <!-- Conference Text Container -->
+                <div class= "grid_sec">Conferences 
+                <p class="grid_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, molestiae eligendi pariatur, magni, sed voluptas eaque inventore sint magnam quidem rerum neque? Corporis provident ipsam sit doloribus quas voluptas molestias?</p>
+                </div> 
+            </div>
+        <!-- Culture Grid --> 
+            <div>
+            <!-- Culture Logo Container -->
+                <div class="grid_logos"> 
+                <img id="grid_img" src="culture logo.png"> 
+                </div>    
+            <!-- Culture Text Container    -->
+                <div class= "grid_sec">Culture 
+                <p class="grid_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, molestiae eligendi pariatur, magni, sed voluptas eaque inventore sint magnam quidem rerum neque? Corporis provident ipsam sit doloribus quas voluptas molestias?</p>
+                </div>
+            </div>            
+        </div>
+<!-- End of Grid Container -->
+    </div>
+<!-- End of Section - 2  -->
+
+<!-- Section - 3 About Me Starts here-->
+    <div class="sec_3_main">
+        <h1 class="sec_3_heading"> About Me</h1>
+    <!-- Wrap Container, It contains (About me info container) & (Statistics Container) Start -->
+        <div class="about_me">
+        <!-- About me info container -->
+            <div class="about_me_info">
+            <img id="about_me_img" src="hero.png">
+            <p class="about_me_text"> <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, <br>nemo illo! Amet dignissimos, sunt a accusantium minus beatae nemo? <br> Excepturi rerum ea omnis rem ratione fugit earum officiis doloribus quo.<br><br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi labore <br> recusandae impedit omnis, ad commodi animi <br></p>
+            </div>
+        <!-- Statistics Container Start-->
+            <div class="stat_container">
+                <!-- Statistics for Photographer -->
+                    <h3>Photographer</h3>
+                    <li id="box1">
+                    <span class="arrow-up"></span>
+                    <p id="box_percentage" >89%</p>
+                    </li>
+                <!-- Statical Lines with Percentage -->                        
+                    <svg id="svg">
+                    <line x1="0" y1="10" x2="100%" y2="10" class="grey_line"/>
+                    <line x1="0" y1="10" x2="89%" y2="10" class="orange_line"/>
+                    </svg><br><br><br>
+                <!-- Statistics for Wedding -->
+                    <h3>Wedding</h3>
+                    <li id="box2"> <!-- For Box -->
+                    <span class="arrow-up"></span><!-- For Up Arrow -->
+                    <p id="box_percentage">75%</p>
+                    </li>
+                <!-- Statical Lines with Percentage -->
+                    <svg id="svg">
+                    <line x1="0" y1="10" x2="100%" y2="10" class="grey_line" />
+                    <line x1="0" y1="10" x2="75%" y2="10" class="orange_line"/>
+                    </svg><br><br><br>
+                <!-- Statistics for Events -->
+                    <h3>Event</h3>
+                    <li id="box3">
+                    <span class="arrow-up"></span>
+                    <p id="box_percentage">94%</p>
+                    </li>
+                <!-- Statical Lines with Percentage -->                        
+                    <svg id="svg">
+                    <line x1="0" y1="10" x2="100%" y2="10" class="grey_line" />
+                    <line x1="0" y1="10" x2="94%" y2="10" class="orange_line" />
+                    </svg><br><br><br>
+                <!-- Statistics for Conference -->
+                    <h3>Conference</h3>
+                    <li id="box4">
+                    <span class="arrow-up"></span>
+                    <p id="box_percentage">94%</p>
+                    </li>
+                <!-- Statical Lines with Percentage -->
+                    <svg id="svg">
+                    <line x1="0" y1="10" x2="100%" y2="10" class="grey_line" />
+                    <line x1="0" y1="10" x2="94%" y2="10" class="orange_line"/>
+                    </svg><br><br><br>                       
+            </div>   
+        <!-- Statistics Container End-->
+        </div>
+    <!-- Wrap Container, It contains (About me info container) & (Statistics Container) End-->        
+    </div>
+<!-- Section - 3 - Complete -->
+
+<!-- Section - 4 - What Client Are Saying StartS here -->
+    <div class="sec4_main">
+        <p class="sec4_client"> What Client Are Sayings</p>
+        <br><br><h1 class="sec4_qoma">"</h1>
+        <p class="sec4_para"><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consectetur obcaecati, inventore sit, unde, fugit placeat reiciendis incidunt facilis est ipsam officiis culpa. Mollitia architecto tenetur placeat, maxime laborum eius.</i></p>
+        <br><br><p class="sec4_last_line"><i> --- Umair Ishtiaq</i></p><br>
+    <!-- DOTS CONTAINER -->
+        <div>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        </div>
+    <!-- Donts Contaner Ends here -->
+    </div>
+<!-- Section - 4 - What Client Are Saying End -->    
+
+<!-- Section - 5 - Blog Post Start -->
+    <div class="sec_5">
+        <p class="blog_post">Blog Posts</p>
+        
+        <div class="sec5_col_container">
+            <div class="sec5_col1">
+                <img src="blog_1.png"  height="275vh" width="auto">
+                    <div class="sec5_col">
+                        <p class="sec5_col_heading"> Why Photography Is Good For Business</p>
+                        <p class="sec5_col_date"> April 25, 2019</p>
+                        <p class="sec5_col_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis accusantium itaque. Harum eius repellat quae in consequuntur ratione exercitationem natus. Excepturi voluptates officia dolorem eius quae ratione, repudiandae dicta.</p>
+                        <br> <p id="read">Read More</p>
+                    </div>
+            </div>
+                <div id="sec5_col2">
+                    <img src="blog_2.png": height="275vh" width="auto">
+                    <div class="sec5_col">
+                        <p class="sec5_col_heading"> Why Photography Is Good For Business</p>
+                        <p class="sec5_col_date"> April 25, 2019</p>
+                        <p class="sec5_col_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis accusantium itaque. Harum eius repellat quae in consequuntur ratione exercitationem natus. Excepturi voluptates officia dolorem eius quae ratione, repudiandae dicta.</p>
+                        <br> <p id="read">Read More</p>
+                    </div>
+                </div>
+                    <div class="sec5_col1">
+                        <img src="blog_3.png": height="275vh" width="auto">
+                        <div class="sec5_col">
+                            <p class="sec5_col_heading"> Why Photography Is Good For Business</p>
+                            <p class="sec5_col_date"> April 25, 2019</p>
+                            <p class="sec5_col_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis veritatis accusantium itaque. Harum eius repellat quae in consequuntur ratione exercitationem natus. Excepturi voluptates officia dolorem eius quae ratione, repudiandae dicta.</p>
+                            <br> <p id="read">Read More</p>
+                        </div>
+                    </div>
+        </div>
+    </div>
+<!-- Section - 5 - Blog Post Ends here -->   
+<!-- Section - 6 - Form SAY HELLO starts here  -->
+    <div class="sec6_main">
+        <p class="sec6_text">Say Hello</p>
+        <div class="sec6_form">
+            <pre class="sayhello">First name                                                              Full name</pre>
+                <svg id="svg">
+                <line x1="0" y1="12" x2="50%" y2="12" class="grey_line"/>
+                <line x1="55%" y1="12" x2="100%" y2="12" class="grey_line"/>
+                </svg><br><br><br>
+            </pre>
+            <p class="sayhello">E-mail address</p>
+                <svg id="svg">
+                <line x1="0" y1="12" x2="100%" y2="12" class="grey_line"/>
+                </svg><br><br><br>
+            <p class="sayhello">Subject of the message</p>
+                <svg id="svg">
+                <line x1="0" y1="12" x2="100%" y2="12" class="grey_line"/>
+                </svg><br><br><br>
+            <p class="sayhello">Type your message here..</p><br><br><br><br><br><br><br><br><br><br>
+                <svg id="svg">
+                <line x1="0" y1="12" x2="100%" y2="12" class="grey_line" />
+                </svg><br><br><br>
+                <button class="button1">Send Message</button>
+        </div>   
+    </div>
+ <!-- Footer Section Starts here    -->
+    <footer class="f_main">
+        <div class="f_grid">
+            <div class="item1">
+                    <h3>Credo</h3><br><br>
+                    <p class="f_para">Lorem ipsum dolor sit amet consectetur edipisicing elit. Dolor, animi.<br><br> 203 Fake St. Mountain View,<br>Sanfrancisco, California, USA</p>
+                </div>
+                <div class="item2">
+                    <h3>Services</h3><br><br>
+                    <p>Wedding</p><br>
+                    <p>Portrait</p><br>
+                    <p>Photography</p>
+                </div>
+                <div class="item3">
+                    <h3>Resources</h3><br><br>
+                    <p>Wedding</p><br>
+                    <p>Portrait</p><br>
+                    <p>Photography</p>
+                </div>  
+                <div class="item4">
+                    <h3>Quick Link</h3><br><br>
+                    <p>Wedding</p><br>
+                    <p>Portrait</p><br>
+                    <p>Photography</p>
+                </div>
+                <div class="item5">
+                    <h3>follow me</h3><br><br>
+                    <p><i id="f_logo" class="fa">&#xf099;  &#xf09a;  &#xf16d;  &#xf08c;</i></p>
+                </div>
+        </div>
+        <p class="f_para2"><br><br>Copyright &copy; 2021 All rights reserved | this templete is made with &#9825; by UMAIR ISHTIAQ</p>
+    </footer>
+    <!-- Footer Section Ends here -->
+</body>
+</html>
